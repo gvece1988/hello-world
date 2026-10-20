@@ -1,14 +1,12 @@
 using System;
 
-namespace HelloWorld
+class Program
 {
-    class Program  
+    static void Main()
     {
-        public static void Main()
-        {
-            Console.WriteLine("Hello worl");
-            Console.Read();
-            Console.Read();
-        }
+        // Preserve input behavior: read input but ignore
+        string input = Console.ReadLine();
+
+        Console.WriteLine("Hello, world!");
     }
 }
